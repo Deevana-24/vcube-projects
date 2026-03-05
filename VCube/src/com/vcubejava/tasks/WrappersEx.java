@@ -8,6 +8,8 @@ public class WrappersEx {
 	Double da=0.06;
 	Double gst=0.06;
 	Double total=salary-pf-da-gst;
+	static WrappersEx wrapper = null;
+	
 	
 	{
 		
@@ -25,8 +27,8 @@ public class WrappersEx {
 	}
 	
 	public static void main(String[] args) {
-
-		WrappersEx wrapper = new WrappersEx();
+	
+			wrapper = new WrappersEx();
 		
 	}
 
